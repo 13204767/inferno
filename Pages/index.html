@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!-- <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style> -->
+
+    <title>Inferno</title>
+  </head>
+  <body>
+    <style>
+      body {
+        height: 100vh;
+        overflow-x: hidden;
+        -webkit-transform: translateZ(0);
+        -moz-transform: translateZ(0);
+        transform: translateZ(0);
+      }
+
+      #main {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+      }
+
+      #inferno {
+        flex: 1;
+        height: 100%;
+      }
+
+      .carousel-inner {
+        height: 100%;
+      }
+      .carousel-item {
+        width: 100%;
+        height: 100%;
+        background: #777;
+        color: white;
+        position: relative;
+      }
+      .container {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        /* padding-bottom: 50px; */
+      }
+    </style>
+    <div id="main" class="bg-dark">
+      <h1 class="p-4 text-light fw-bold">Inferno: Canto I</h1>
+      <div id="inferno" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+          <li
+            data-bs-target="#inferno"
+            data-bs-slide-to="0"
+            class="active"
+          ></li>
+          <li data-bs-target="#inferno" data-bs-slide-to="1"></li>
+          <li data-bs-target="#inferno" data-bs-slide-to="2"></li>
+          <li data-bs-target="#inferno" data-bs-slide-to="3"></li>
+          <li data-bs-target="#inferno" data-bs-slide-to="4"></li>
+          <li data-bs-target="#inferno" data-bs-slide-to="5"></li>
+          <li data-bs-target="#inferno" data-bs-slide-to="6"></li>
+          <li data-bs-target="#inferno" data-bs-slide-to="7"></li>
+          <li data-bs-target="#inferno" data-bs-slide-to="8"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div
+            class="carousel-item active"
+            style="
+              background: url(../images/0.jpeg) no-repeat center center fixed;
+              background-size: cover;
+            "
+          >
+            <div class="container pb-5">
+              <p class="fs-4">Midway upon the journey of our life</p>
+              <p class="fs-4">I found myself within a forest dark,</p>
+              <p class="fs-4">For the straightforward pathway had been lost.</p>
+            </div>
+          </div>
+          <div
+            class="carousel-item"
+            style="
+              background: url(../images/1.jpeg) no-repeat center center fixed;
+              background-size: cover;
+            "
+          >
+            <div class="container pb-5">
+              <p class="fs-4">Midway upon the journey of our life</p>
+              <p class="fs-4">I found myself within a forest dark,</p>
+              <p class="fs-4">For the straightforward pathway had been lost.</p>
+            </div>
+          </div>
+          <div
+            class="carousel-item"
+            style="
+              background: linear-gradient(
+                  rgba(0, 0, 0, 0.5),
+                  rgba(0, 0, 0, 0.5)
+                ),
+                url(../images/2.jpeg) no-repeat center center fixed;
+              background-size: cover;
+            "
+          >
+            <div class="container pb-5">
+              <p class="fs-4">Ah me! how hard a thing it is to say</p>
+              <p class="fs-4">What was this forest savage, rough, and stern,</p>
+              <p class="fs-4">Which in the very thought renews the fear.</p>
+            </div>
+          </div>
+          <div
+            class="carousel-item"
+            style="
+              background: linear-gradient(
+                  rgba(0, 0, 0, 0.2),
+                  rgba(0, 0, 0, 0.2)
+                ),
+                url(../images/3.jpeg) no-repeat center center fixed;
+              background-size: cover;
+            "
+          >
+            <div class="container pb-5">
+              <p class="fs-4">So bitter is it, death is little more;</p>
+              <p class="fs-4">But of the good to treat, which there I found,</p>
+              <p class="fs-4">Speak will I of the other things I saw there.</p>
+            </div>
+          </div>
+          <div
+            class="carousel-item"
+            style="
+              background: linear-gradient(
+                  rgba(0, 0, 0, 0.2),
+                  rgba(0, 0, 0, 0.2)
+                ),
+                url(../images/4.webp) no-repeat center center fixed;
+              background-size: cover;
+            "
+          >
+            <div class="container pb-5">
+              <p class="fs-4">I cannot well repeat how there I entered,</p>
+              <p class="fs-4">So full was I of slumber at the moment</p>
+              <p class="fs-4">In which I had abandoned the true way.</p>
+            </div>
+          </div>
+          <div
+            class="carousel-item"
+            style="
+              background: linear-gradient(
+                  rgba(0, 0, 0, 0.2),
+                  rgba(0, 0, 0, 0.2)
+                ),
+                url(../images/5.avif) no-repeat center center fixed;
+              background-size: cover;
+            "
+          >
+            <div class="container pb-5">
+              <p class="fs-4">But after I had reached a mountain's foot,</p>
+              <p class="fs-4">At that point where the valley terminated,</p>
+              <p class="fs-4">Which had with consternation pierced my heart,</p>
+            </div>
+          </div>
+          <div
+            class="carousel-item"
+            style="
+              background: linear-gradient(
+                  rgba(0, 0, 0, 0.5),
+                  rgba(0, 0, 0, 0.5)
+                ),
+                url(../images/6.jpeg) no-repeat center center fixed;
+              background-size: cover;
+            "
+          >
+            <div class="container pb-5">
+              <p class="fs-4">Upward I looked, and I beheld its shoulders,</p>
+              <p class="fs-4">Vested already with that planet's rays</p>
+              <p class="fs-4">Which leadeth others right by every road.</p>
+            </div>
+          </div>
+          <div
+            class="carousel-item"
+            style="
+              background: linear-gradient(
+                  rgba(0, 0, 0, 0.5),
+                  rgba(0, 0, 0, 0.5)
+                ),
+                url(../images/7.jpeg) no-repeat center center fixed;
+              background-size: cover;
+            "
+          >
+            <div class="container pb-5">
+              <p class="fs-4">Then was the fear a little quieted</p>
+              <p class="fs-4">That in my heart's lake had endured throughout</p>
+              <p class="fs-4">The night, which I had passed so piteously.</p>
+            </div>
+          </div>
+          <div
+            class="carousel-item"
+            style="
+              background: linear-gradient(
+                  rgba(0, 0, 0, 0.5),
+                  rgba(0, 0, 0, 0.5)
+                ),
+                url(../images/7.jpeg) no-repeat center center fixed;
+              background-size: cover;
+            "
+          >
+            <div class="container pb-5">
+              <p class="fs-4">And even as he, who, with distressful breath,</p>
+              <p class="fs-4">Forth issued from the sea upon the shore,</p>
+              <p class="fs-4">Turns to the water perilous and gazes;</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container pb-5">
+              <p class="fs-4">So did my soul, that still was fleeing onward,</p>
+              <p class="fs-4">Turn itself back to re-behold the pass</p>
+              <p class="fs-4">Which never yet a living person left.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="file:///home/brendon/Bootstrap5/bootstrap-5.0.2-examples/heroes/bootstrap-docs.png"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="file:///home/brendon/Bootstrap5/bootstrap-5.0.2-examples/heroes/bootstrap-docs.png"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="file:///home/brendon/Bootstrap5/bootstrap-5.0.2-examples/heroes/bootstrap-docs.png"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div> -->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <!-- <script src="../javascript/home.js"></script> -->
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
